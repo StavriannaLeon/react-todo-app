@@ -62,6 +62,7 @@ const Todo = () =>{
         <TodoForm dispatch={dispatch} />
         <TodoList todos={todos} dispatch={dispatch} />
 
+        {/* &&: if statement is true => show the following */}
         { todos.length > 0 && (
           <>
             <div className="flex justify-between border-t pt-2 mt-4 text-cf-gray">
